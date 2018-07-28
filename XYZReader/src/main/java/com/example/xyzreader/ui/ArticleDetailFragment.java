@@ -134,7 +134,11 @@ public class ArticleDetailFragment extends Fragment implements
         TextView bylineView = rootView.findViewById(R.id.article_byline);
         TextView bodyView = rootView.findViewById(R.id.article_body);
 
-
+        // Reviewer suggested: Rosario-Regular looks great on the app,
+        // but sometimes we need somthing quite unique to the brand, and recognisable by users.
+        // This means using non-default Andorid fonts.
+        // Have you tried using Downloadable Fonts to enhance your apps UI and give it a unique look?
+        // I find that it will come in handy in your future works and just wanted to share that.
         bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
 
         if (cursor == null) {
