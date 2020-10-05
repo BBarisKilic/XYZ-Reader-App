@@ -1,4 +1,4 @@
-# XYZ Reader App
+# Make Your App Material Project / XYZ Reader App
 Redesigned app to follow the Material Design guidelines and translate a set of static design mocks to a living and breathing.
 
 ## Screenshots from the Latest Version of The Application
